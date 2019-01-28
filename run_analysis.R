@@ -35,8 +35,6 @@ if (!file.exists(pathMerged)) {
   pathTest <- "./test"
   pathTrain <- "./train"
   
-  print(paste("WD", getwd()))
-  
   # merge data into new directory 'merged'
   for (file in files) {
     print(file)
